@@ -11,14 +11,12 @@ public class FizzBuzz
         FizzBuzz f = new FizzBuzz();
     }
 
-    private int i;
     /**
      * Constructor for objects of class FizzBuzz
      */
     public FizzBuzz()
     {
         // initialise instance variables
-        i = 0;
     }
 
     /**
@@ -28,7 +26,7 @@ public class FizzBuzz
      */
     public void FizzBuzz()
     {
-        for(i=1; i<=100; i++)
+        for(int i=1; i<=100; i++)
         {
             if(i%3==0 && i%5==0)
             {
