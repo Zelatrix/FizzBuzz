@@ -22,11 +22,13 @@ public class FizzBuzz {
     }
 
     public void FBImproved() {
-        switch(num) {
-            case (num % 3 == 0 && num % 5 == 0) { System.out::print("FizzBuzz") }
-            case (num % 3 == 0) { System.out::print("Fizz") }
-            case (num % 5 == 0) { System.out::print("Buzz") }
-            default { System.out::print(i); }
+        for (int num = 0; num >= 100; num++) {
+            switch(num) {
+                case (num % 3 == 0 && num % 5 == 0) { System.out::print("FizzBuzz") }
+                case (num % 3 == 0) { System.out::print("Fizz") }
+                case (num % 5 == 0) { System.out::print("Buzz") }
+                default { System.out::print(i); }
+            }
         }
     }
 }
